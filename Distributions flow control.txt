@@ -1,0 +1,150 @@
+                          +----------------------------------------+
+                          |       COMMON DISTRIBUTIONS IN ML      |
+                          +----------------------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |     Normal Distribution   |
+                           |   (Bell-shaped, Symmetric)| 
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Linear Regression     |
+                           |   * Logistic Regression   |
+                           |   * k-Nearest Neighbors   |
+                           |   * Naive Bayes           |
+                           |                           |
+                           | - Example: Heights, IQs   |
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |     Bernoulli Distribution |
+                           |  (Binary Outcomes: 0 or 1) |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Logistic Regression   |
+                           |   * Naive Bayes           |
+                           |   * Decision Trees        |
+                           |                           |
+                           | - Example: Click/No-click |
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |     Binomial Distribution  |
+                           | (Count of Successes in N) |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Naive Bayes           |
+                           |   * Logistic Regression   |
+                           |                           |
+                           | - Example: Tossing a coin |
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |     Poisson Distribution  |
+                           | (Counts per Time/Space)   |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Poisson Regression    |
+                           |   * Count-based models    |
+                           |                           |
+                           | - Example: Customer Arrival|
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |   Exponential Distribution |
+                           | (Time between events)     |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Survival Analysis     |
+                           |   * Poisson Processes     |
+                           |                           |
+                           | - Example: Wait for Bus   |
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |     Uniform Distribution   |
+                           | (Equal probability range) |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Randomized Algorithms |
+                           |   * Uniform Sampling      |
+                           |                           |
+                           | - Example: Raffle Draw    |
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |   Log-Normal Distribution  |
+                           | (Positively skewed data)  |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Financial Modeling    |
+                           |   * Neural Networks       |
+                           |                           |
+                           | - Example: Income Levels  |
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |      Gamma Distribution    |
+                           | (Multiple-phase events)   |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Reliability Analysis  |
+                           |   * Survival Analysis     |
+                           |                           |
+                           | - Example: Task Durations |
+                           +---------------------------+
+                                       |
+                                       |
+                                       V
+                           +---------------------------+
+                           |      Beta Distribution     |
+                           | (Probabilities & Ratios)  |
+                           +---------------------------+
+                           | - Algorithms:             |
+                           |   * Bayesian Inference    |
+                           |   * Probabilistic Models  |
+                           |                           |
+                           | - Example: Win Ratios     |
+                           +---------------------------+
+
+
+
+
+
+
+
+Explanation of Flow
+Normal Distribution: Used in cases where data is symmetric around a mean. Algorithms like Linear Regression and Logistic Regression assume normality.
+
+Bernoulli Distribution: Deals with binary outcomes. Logistic Regression and Decision Trees are often applied in binary classification problems where data may follow a Bernoulli pattern.
+
+Binomial Distribution: Used for counting the number of successes in a fixed number of trials, with applications in Naive Bayes and classification models.
+
+Poisson Distribution: Handles count data over time or space, often used with Poisson Regression in count-based problems.
+
+Exponential Distribution: Models time until an event occurs. Survival Analysis is a field that leverages this distribution to predict wait times or event intervals.
+
+Uniform Distribution: When all values within a range are equally likely, randomized algorithms and uniform sampling can use this pattern.
+
+Log-Normal Distribution: For positively skewed data (where values can't be negative), such as incomes. Neural Networks and financial models work with log-normal data.
+
+Gamma Distribution: Used for events with multiple stages, applicable in reliability testing and survival analysis.
+
+Beta Distribution: Perfect for proportions or ratios, useful in Bayesian inference and probabilistic models.
+
+This flow diagram organizes distributions by typical machine learning applications, making it easier to remember which distributions and algorithms go together.
